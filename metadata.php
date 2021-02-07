@@ -32,7 +32,7 @@ $aModule = [
         'en' => ''
     ),
     'thumbnail'   => 'out/src/pictures/picture.png',
-    'version'     => '1.0.0',
+    'version'     => '1.0.1',
     'author'      => 'Internetservice | Steffen Winde',
     'url'         => 'https://bitbucket.org/swinde/',
     'email'       => 'inserv@winde-ganzig.de',
