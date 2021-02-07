@@ -1,0 +1,29 @@
+{
+  "name": "swinde/cms2banner",
+  "description": "CMS Seiten in Banner einfügen",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Steffen Winde",
+      "email": "email@example.com"
+    }
+  ],
+  "type": "oxideshop-module",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "swinde/cms2banner"
+    }
+  },
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Swinde\\Cms2Banner\\": "../../../source/modules/swinde/cms2banner"
+    }
+  }
+}

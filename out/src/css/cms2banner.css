@@ -1,0 +1,11 @@
+.flexslider .flex-cms2banner {
+    background: rgba(160, 160, 160, 0.7);
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+
+}
