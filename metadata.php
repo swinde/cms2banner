@@ -36,9 +36,7 @@ $aModule = [
     'author'      => 'Internetservice | Steffen Winde',
     'url'         => 'https://bitbucket.org/swinde/',
     'email'       => 'inserv@winde-ganzig.de',
-    'extend'      => [
-        OxidEsales\Eshop\Application\Controller\Admin\ActionsMain::class => Swinde\Cms2Banner\Application\Controller\Admin::class
-    ],
+    'extend'      => [],
     'events' =>[
         'onActivate'   => '\Swinde\Cms2Banner\Core\Events::onActivate',
         'onDeactivate' => '\Swinde\Cms2Banner\Core\Events::onDeactivate',

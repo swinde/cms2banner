@@ -20,7 +20,7 @@ class Events
     public static function swAlterActionsTable ()
     {
         $query = "ALTER TABLE `oxactions` ADD (
-                `SWCONTENTID ` varchar(40) NOT NULL COMMENT 'CMS ID'                   
+                `SWCONTENTID` varchar(40) NOT NULL COMMENT 'CMS ID'                   
             ) ";
 
         \OxidEsales\Eshop\Core\DatabaseProvider::getDb()->execute($query);
@@ -66,7 +66,7 @@ class Events
         $blSwDatabaseFieldExists = false;
 
         $sTable = 'oxactions';
-        $sColumn = 'swcontentid';
+        $sColumn = 'SWCONTENTID';
         $oDbHandler = oxNew( "oxDbMetaDataHandler" );
         $blSwDatabaseFieldExists = $oDbHandler->tableExists( $sTable ) && $oDbHandler->fieldExists( $sColumn, $sTable );
 
