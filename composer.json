@@ -20,7 +20,7 @@
       "target-directory": "swinde/cms2banner"
     }
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "Swinde\\Cms2Banner\\": "../../../source/modules/swinde/cms2banner"
