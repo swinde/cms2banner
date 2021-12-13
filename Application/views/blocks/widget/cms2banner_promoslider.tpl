@@ -28,7 +28,7 @@
         [{/if}]
         [{*Einbinden einer CMS Seite je Banner *}]
         [{if $oBanner->oxactions__swcontentid->value}]
-        <div class="flex-cms2banner" style="background: #000;width: 100%;margin: 0;padding: 10px;position: absolute;left: 0;bottom: 0;color: #fff;">
+        <div class="flex-cms2banner">
             [{ oxcontent ident=$oBanner->oxactions__swcontentid->value }]
         </div>
         [{/if}]
