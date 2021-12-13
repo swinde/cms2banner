@@ -28,15 +28,14 @@ $aModule = [
         'en' => '.BEES | CMS Seiten in Banner einfügen',
     ),
     'description'  => array(
-        'de' => '',
-        'en' => ''
+        'de' => 'Banner mit Text aus einer CMS Seite verbinden.',
+        'en' => 'Combine banners with text from a CMS page.'
     ),
     'thumbnail'   => 'out/src/pictures/picture.png',
     'version'     => '1.0.1',
     'author'      => 'Internetservice | Steffen Winde',
-    'url'         => 'https://bitbucket.org/swinde/',
+    'url'         => 'https://github.com/swinde/cms2banner',
     'email'       => 'inserv@winde-ganzig.de',
-    'extend'      => [],
     'events' =>[
         'onActivate'   => '\Swinde\Cms2Banner\Core\Events::onActivate',
         'onDeactivate' => '\Swinde\Cms2Banner\Core\Events::onDeactivate',
