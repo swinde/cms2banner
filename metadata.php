@@ -46,6 +46,11 @@ $aModule = [
             'block'    => 'admin_actions_main_form',
             'file'     => 'Application/views/admin/tpl/admin_actions_main.tpl',
         ],
+		[
+			'template' => 'layout/base.tpl',
+			'block' 	=>'base_style',
+			'file'=>'Application/views/blocks/layout/cms2banner_base_style.tpl'
+		],
         [
             'template' => 'widget/promoslider.tpl',
             'block'=>'dd_widget_promoslider_list',
