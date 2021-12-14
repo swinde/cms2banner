@@ -48,7 +48,7 @@ $aModule = [
         ],
 		[
 			'template' => 'layout/base.tpl',
-			'block' 	=>'head_css',
+			'block' 	=>'base_style',
 			'file'=>'views/blocks/layout/cms2banner_base_style.tpl'
 		],
         [
