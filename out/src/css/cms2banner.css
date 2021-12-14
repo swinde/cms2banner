@@ -1,3 +1,4 @@
+/* For mobile phones: */
 .flex-cms2banner {
     background: rgba(57, 57, 57, 0.7);
     width: 100%;
@@ -6,16 +7,13 @@
     color: #fff;
 
 }
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
     .flex-cms2banner {
         background: rgba(57, 57, 57, 0.7);
-        width: 100%;
-        margin: 0;
-        padding: 10px;
         position: absolute;
         left: 0;
         bottom: 0;
-        color: #fff;
-
     }
 }
