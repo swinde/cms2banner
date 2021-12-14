@@ -49,7 +49,7 @@ $aModule = [
 		[
 			'template' => 'layout/base.tpl',
 			'block' 	=>'head_css',
-			'file'=>'views/layout/cms2banner_base_style.tpl'
+			'file'=>'views/blocks/layout/cms2banner_base_style.tpl'
 		],
         [
             'template' => 'widget/promoslider.tpl',
