@@ -44,17 +44,17 @@ $aModule = [
         [
             'template' => 'actions_main.tpl',
             'block'    => 'admin_actions_main_form',
-            'file'     => 'views/admin/tpl/admin_actions_main.tpl',
+            'file'     => '/views/admin/tpl/admin_actions_main.tpl',
         ],
 		[
 			'template' => 'layout/base.tpl',
-			'block' 	=>'base_style',
-			'file'=>'cms2banner_base_style.tpl'
+			'block' 	=>'head_css',
+			'file'=>'/views/layout/cms2banner_base_style.tpl'
 		],
         [
             'template' => 'widget/promoslider.tpl',
             'block'=>'dd_widget_promoslider_list',
-            'file'=>'views/blocks/widget/cms2banner_promoslider.tpl'
+            'file'=>'/views/blocks/widget/cms2banner_promoslider.tpl'
         ]
     ],
 ];
