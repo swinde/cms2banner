@@ -55,6 +55,12 @@ $aModule = [
             'template' => 'widget/promoslider.tpl',
             'block'=>'dd_widget_promoslider_list',
             'file'=>'views/blocks/widget/cms2banner_promoslider.tpl'
-        ]
+        ],
+		[
+			'theme'=>'moga',
+			'template' => 'widget/promoslider.tpl',
+			'block'=>'dd_widget_promoslider_list',
+			'file'=>'views/blocks/widget/cms2banner_promoslider_moga.tpl'
+		]
     ],
 ];
