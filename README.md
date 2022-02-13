@@ -11,6 +11,10 @@ OXID eShop 6
 
 Mit diesem Modul ist es möglich kurze Texte in den Flexslider einzufügen.
 
+- Text als CMS Seite erstellen
+- ID kopieren und in das Feld "CMS-ID" des entsprechenden Banners einfügen.
+- Speichern.
+
 ### License
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
